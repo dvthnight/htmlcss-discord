@@ -71,7 +71,7 @@ a{
     background-color: white;
     border-radius: 20px;
     padding: 0 10px;
-    color: black;
+    color: rgb(32, 35, 37);
 }
 
 .col_head{
@@ -99,7 +99,7 @@ a{
 
 
 #scarica {
-    color: black;
+    color: rgb(32, 35, 37);
     background-color: white;
     padding: 10px 20px;
     border-radius: 50px;
@@ -108,7 +108,7 @@ a{
 
 #apri{
     color: white;
-    background-color: black;
+    background-color: rgb(32, 35, 37);
     padding: 10px 20px;
     border-radius: 50px;
 }
@@ -180,8 +180,87 @@ main section{
 
 #bot_sca_f{
     color: white;
-    background-color: rgb(85, 83, 219);
+    background-color: rgb(132,152,215);
     border-radius: 50px;
     padding: 10px 20px;
     display: inline-block;
+}
+
+main{
+    margin-bottom: 100px;
+}
+
+footer{
+    background-color: rgb(32, 35, 37);
+    min-height: 600px;
+}
+
+.contenitore_foot{
+    width: 1300px;
+    color: white;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+[class^="col_foot"]{
+    float: left;
+    width: 17%;
+}
+
+footer li{
+    list-style: none;
+    line-height: 30px;
+}
+
+.col_foot_1{
+    width: 32%;
+    padding-right: 190px;
+}
+
+footer li:first-child,h3{
+    color: rgb(132,152,215);
+}
+
+footer .col_foot_1 h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#bandiera{
+    height: 20px;
+}
+
+.col_foot_1 span{
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: top;
+    padding-bottom: 20px;
+}
+
+#el_col_foot_1 i{
+    padding-right: 15px;
+}
+
+.contenitore_foot{
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(132,152,215);
+}
+
+.contenitore_foot_2{
+    padding-top: 30px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.contenitore_foot_2 a{
+    display: inline-block;
+    color: white;
+    background-color: rgb(132,152,215);
+    padding: 10px 20px;
+    border-radius: 50px;
+    float: right;
+}
+
+.contenitore_foot_2 img{
+    float: left;
 }
