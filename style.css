@@ -20,6 +20,7 @@ header{
     height: 700px;
     background-repeat: no-repeat;
     color: white;
+    position: relative;
 }
 
 nav{
@@ -71,4 +72,43 @@ a{
     border-radius: 20px;
     padding: 0 10px;
     color: black;
+}
+
+.col_head{
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.col_head h1{
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.col_head p{
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.col_head div{
+    display: inline-block;
+}
+
+
+#scarica {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+#apri{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
 }
