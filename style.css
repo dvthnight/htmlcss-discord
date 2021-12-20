@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header{
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+nav{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+[class^="col_nav"]{
+    float: left;
+}
+
+.col_nav_img{
+    width: 124px;
+}
+
+
+.col_nav_but{
+    width: 68px
+}
+
+.col_nav_list{
+    width: calc(100% - 124px - 68px);
+}
+
+nav ul{
+    list-style: none;
+    line-height: 34px;
+    
+}
+
+nav li{
+    float: left;
+    padding-left: 30px;
+}
+
+nav li:first-child{
+    padding-left: 150px;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.button.accedi{
+    line-height: 34px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0 10px;
+    color: black;
+}
